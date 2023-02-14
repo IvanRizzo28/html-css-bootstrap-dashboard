@@ -2,3 +2,19 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/*
+debug
+*/
+
+.debug header{
+    background-color: aqua;
+}
+
+.debug nav{
+    background-color: black;
+}
+
+.debug main{
+    background-color: red;
+}
