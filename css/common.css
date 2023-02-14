@@ -72,12 +72,20 @@ a{
     border-radius: 5px;
     background-image: url("../img/search.png");
     background-repeat: no-repeat;
-    background-size: 30px;
+    background-size: 25px;
     background-position:left;
 }
 
-@media screen and (min-width: 991px) {
+.ir-larghezza-canva{
+    width: 100%!important;
+}
+
+@media screen and (min-width: 992px) {
     .ir-w{
         width: calc(var(--ir-w) * 2);
+    }
+
+    .ir-larghezza-canva{
+        width: 50%!important;
     }
 }

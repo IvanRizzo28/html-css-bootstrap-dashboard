@@ -18,6 +18,15 @@ debug
     background-color: red;
 }
 
+.debug .row{
+    /*background-color: green;*/
+}
+
+.debug .col{
+    border:1px solid black;
+    height: 50px;
+}
+
 /*
 header
 */
