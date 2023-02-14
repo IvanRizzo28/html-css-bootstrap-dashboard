@@ -27,6 +27,10 @@ header{
     background-color: rgb(250, 250, 250);
 }
 
+header i{
+    cursor: pointer;
+}
+
 .dropdown-toggle::after{
     display: none;
 }
@@ -39,6 +43,20 @@ nav{
     background-color: #051E34;
     background-image: url("../img/sidebar-bg.png");
     background-size: cover;
+    /*padding: 40px 10px;*/
+    color: #fff;
+}
+
+nav i{
+    font-size: 20px;
+}
+
+nav a{
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: #fff;
 }
 
 /*
