@@ -1,3 +1,8 @@
+img{
+    max-width: 90%;
+    display: block;
+}
+/*---------------*/
 .ir-body{
     height: calc(100vh - 70px);
 }
@@ -11,12 +16,37 @@
     height: 100%;
 }
 
+.ir-header i{
+    font-size: 20px;
+}
+
+.ir-header .ir-logo{
+    height: 50px;
+}
+
 .ir-w{
     width: var(--ir-w);
 }
 
 .ir-grow{
     flex-grow: 1;
+}
+
+.ir-color-gold{
+    color: gold;
+}
+
+.ir-cerca{
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px;
+    padding-left: 35px;
+    border: none;
+    border-radius: 5px;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position:left;
 }
 
 @media screen and (min-width: 991px) {

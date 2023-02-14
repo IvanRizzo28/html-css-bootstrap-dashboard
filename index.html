@@ -20,14 +20,27 @@
     <!--header-->
     <header class="ir-padding-y-10">
         <div class="ir-header d-flex align-items-center">
-            <div class="ir-w border">
-                aaaa
+            <div class="ir-w d-flex justify-content-center">
+                <img src="img/mobile-logo.png" alt="Boolean" class="ir-logo d-lg-none">
+                <img src="img/logo.svg" alt="Boolean" class="ir-logo d-none d-lg-block">
             </div>
-            <div class="ir-grow border">
-                bbbb
+            <div class="ir-grow px-2">
+                <input type="text" placeholder="Prova a cercare: lezioni di laravel" class="ir-cerca">
             </div>
-            <div class="ir-w border">
-                ccc
+            <div class="ir-w d-flex justify-content-around align-items-center">
+                <i class="fa-solid fa-bars d-none d-lg-block"></i>
+                <i class="fa-solid fa-circle-question d-none d-lg-block"></i>
+                <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i>
+                <div class="dropdown">
+                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell ir-color-gold"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
