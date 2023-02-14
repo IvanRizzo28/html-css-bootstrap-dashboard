@@ -55,9 +55,48 @@
                 <li class="d-flex"><i class="fa-solid fa-gear me-lg-2"></i><a href="#" class="d-none d-lg-block">Signals</a></li>
             </ul>
         </nav>
-        <main class="ir-grow"></main>
+        <main class="ir-grow">
+            <div class="p-3 bg-primary text-white">
+                <div class="row gy-4">
+                    <div class="col-12 col-md-4 col-lg-3 order-md-last">
+                        <span class="me-3 align-middle">Nuovo Studente</span>
+                        <button class="btn btn-outline-light align-middle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-6">
+                        <div class="mb-2">
+                            <span class="fs-2 align-middle">Boolean</span>
+                            <span class="badge rounded-pill text-bg-dark align-middle bg-opacity-25">Piano blaze</span>
+                        </div>
+                        <div>
+                            <span class="badge rounded-pill text-bg-dark align-middle bg-opacity-25">3 app</span>
+                            <i class="fa-solid fa-angles-right"></i>
+                            <span class="badge rounded-pill text-bg-dark d-lg-none bg-opacity-25">+</span>
+                            <span class="badge rounded-pill text-bg-dark d-none d-lg-inline-block bg-opacity-25">Boolean mobile app</span>
+                            <span class="badge rounded-pill text-bg-dark d-none d-lg-inline-block bg-opacity-25">boolean web app</span>
+                            <span class="badge rounded-pill text-bg-dark d-none d-lg-inline-block bg-opacity-25">boolean blog app</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <span>Studenti online negli ultimi 30 minuti</span>
+                        <h3 class="mt-2 fs-1">125</h3>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
     <!--/header-->
+    <!--canvas bootstrap-->
+    <div class="offcanvas offcanvas-end ir-larghezza-canva" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          ...
+        </div>
+    </div>
+    <!--/canvas bootstrap-->
+
     <!--bootstrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
