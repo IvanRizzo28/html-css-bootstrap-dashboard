@@ -1,3 +1,6 @@
+@import 'variabili.css';
+@import 'common.css';
+
 /* google font*/
 body{
     font-family: 'Roboto', sans-serif;
@@ -11,10 +14,33 @@ debug
     background-color: aqua;
 }
 
-.debug nav{
-    background-color: black;
-}
-
 .debug main{
     background-color: red;
+}
+
+/*
+header
+*/
+
+header{
+    height: 70px;
+    background-color: rgb(240, 240, 240);
+}
+
+/*
+nav
+*/
+
+nav{
+    background-color: #051E34;
+    background-image: url("../img/sidebar-bg.png");
+    background-size: cover;
+}
+
+/*
+main
+*/
+
+main{
+    overflow-y: auto;
 }

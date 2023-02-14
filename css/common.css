@@ -1,0 +1,26 @@
+.ir-body{
+    height: calc(100vh - 70px);
+}
+
+.ir-padding-y-10{
+    padding: 10px 0;
+}
+
+.ir-header{
+    background-color: #fff;
+    height: 100%;
+}
+
+.ir-w{
+    width: var(--ir-w);
+}
+
+.ir-grow{
+    flex-grow: 1;
+}
+
+@media screen and (min-width: 991px) {
+    .ir-w{
+        width: calc(var(--ir-w) * 2);
+    }
+}
