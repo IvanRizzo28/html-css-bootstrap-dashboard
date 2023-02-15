@@ -88,6 +88,14 @@ a{
     width: 100%!important;
 }
 
+.ir-width-img{
+    height: 25px;
+}
+
+.ir-h-25{
+    height: 30px;
+}
+
 @media screen and (min-width: 992px) {
     .ir-w{
         width: calc(var(--ir-w) * 2);
